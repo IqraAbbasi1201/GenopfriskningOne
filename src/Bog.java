@@ -3,5 +3,5 @@ public class Bog {
         System.out.println("Hi");
     }
 
-    /*Andrea Brinkbøl*/
+    /*Andrea Brinkbøll*/
 }

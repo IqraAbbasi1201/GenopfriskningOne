@@ -1,3 +1,3 @@
 public class ArrayList {
-    /*Andrea*/
+    /*Andrea Brinkbøl*/
 }
