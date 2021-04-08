@@ -33,6 +33,6 @@ public class Bibliotek {
 
     public static boolean bMethod (Bog currentBook, ArrayList bogliste) {
 
-
+    return true; //Kompileringsfejl grundet manglede return statement
     }
 }
