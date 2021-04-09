@@ -6,7 +6,7 @@ public class LawnMowing {
         Scanner sc = new Scanner(System.in);
         Grass grass = new Grass();
 
-        System.out.println("Let's predict when you should mow your lawn");
+        System.out.println("Grass grows at approx. 0.8cm a day. Let's predict when you should mow your lawn");
         System.out.print("Input your grass height in cm: ");
         grass.setGrassHeightCurrent(sc.nextDouble());
         System.out.print("Input your grass height limit: ");
@@ -19,12 +19,10 @@ public class LawnMowing {
         //heightLimit = heightCurrent + x * growth, solve for x
 
         int count = 0;
-        for (int i = 0; i < heightLimit; i++){
+        while (heightCurrent < heightLimit){
             heightCurrent = heightCurrent + growth;
             count++;
         }
-        System.out.println(heightCurrent);
-
         return count;
     }
 }
